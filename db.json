@@ -6,34 +6,11 @@
       "author": "typicode"
     }
   ],
-  "signupusers": [
+  "comments": [
     {
-      "username": "cse_123",
-      "email": "bhavadharanim16@gmail.com",
-      "password": "Sachi@2002",
-      "con_pass": "Sachi@2002",
-      "id": 1
-    },
-    {
-      "username": "Arivazhagan",
-      "email": "arivazhagun@gmail.com",
-      "password": "Test@123",
-      "con_pass": "Test@123",
-      "id": 2
-    },
-    {
-      "username": "Bhavadharani",
-      "email": "20bcs4014@mkce.ac.in",
-      "password": "Sachi@2002",
-      "con_pass": "Sachi@2002",
-      "id": 3
-    },
-    {
-      "username": "keerthana",
-      "email": "keerthana912krr@gmail.com",
-      "password": "Keerthuv912*",
-      "con_pass": "Keerthuv912*",
-      "id": 4
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     }
   ],
   "profile": {
