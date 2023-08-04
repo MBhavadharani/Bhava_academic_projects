@@ -1,0 +1,42 @@
+<!-- <p>Accuracy: {{accuracy}}</p>
+<p>RMSE: {{rmse}}</p>
+<router-outlet></router-outlet> -->
+
+<div class="result-box">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h4>Results</h4>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-12">
+                <p class="result-title">Accuracy:</p>
+              </div>
+              <div class="col-md-12">
+                <p class="result-value">{{accuracy}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="result-title">Root Mean Squared Error:</p>
+              </div>
+              <div class="col-md-12">
+                <p class="result-value">{{rmse}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="result-title">Graph</p>
+              </div>
+              <div class="col-md-12">
+                <iframe width="1200px" height="600px" [srcdoc]="getIframeContent()"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,13 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .signup-box{
+    width: 25rem;
+  }

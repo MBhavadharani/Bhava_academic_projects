@@ -1,0 +1,12 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .login-box{
+    width: 20rem;
+  }
